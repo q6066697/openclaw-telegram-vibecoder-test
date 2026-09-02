@@ -8,6 +8,14 @@ security-хардненинг деплоя (env-only секреты, SecretRef �
 Basic Auth + IP allowlist на прокси, pairing/owner-политика для Telegram —
 см. [SECURITY.md](SECURITY.md)).
 
+## Demo
+
+Скринкаст: рабочий OpenClaw Gateway, ответ бота на сообщение с компьютера и
+ответ бота на сообщение с телефона — всё без VPN на устройстве, гео-блок
+OpenAI обходится через прокси на VDS (см. [ARCHITECTURE.md](ARCHITECTURE.md)).
+
+[Смотреть видео](https://drive.google.com/file/d/1mxrDAxxlf9iFFG9-HHpsM1Gi91tphO0n/view?usp=sharing)
+
 ## Стек
 - OpenClaw 2026.8.2
 - Node.js 24
