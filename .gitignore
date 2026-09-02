@@ -1,0 +1,11 @@
+*.env
+.env
+gateway.systemd.env
+*.token
+openclaw.json
+openclaw.json.bak
+*.sqlite
+*.lock
+*.pid
+node_modules/
+*.log
